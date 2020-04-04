@@ -40,7 +40,7 @@ body {
   
   overflow-x:hidden;
   align-content: center;
-  height:5000px;
+
 }
 
 .mainWrapper {
@@ -84,24 +84,82 @@ color:white;
   right: 20px;
 }
 
-.loginWrapper {
+.loginButtonsWrapper {
   margin-top:20px;
 }
-.login{
+.loginButton{
   background:white;
   color:green;
   padding-top:20px;
   padding-bottom:20px;
 }
-.signUp{
+.signUpButton{
   background:green;
   color:white;
   padding-top:20px;
   padding-bottom:20px;
 }
-.login:hover {
+.loginButton:hover {
  box-shadow: 0 5px 15px rgba(50, 168, 82, .8);
 }
-.signUp:hover {
+.signUpButton:hover {
  box-shadow: 0 5px 15px rgba(255, 255, 255, .8);
 }
+
+.loginWrapper{
+  position: absolute;
+  top:800px;
+  background-color:white;
+  width:55%;
+  left:-30px;
+  height:550px;
+  border:3px #cbd4cd solid;
+  border-radius: 30px;
+  padding:30px;
+}
+
+
+.login{
+  top:50px;
+
+}
+
+.text{
+  padding:10px;
+  margin:20px;
+  border: 2px #cad3e0 solid;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.submit{
+  width:200px;
+  padding: 20px;
+  margin-top:20px;
+}
+
+.loginWrapper h1{
+  margin-bottom:20px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.loginWrapper label{
+  margin-top:15px;
+}
+
+.signUpWrapper{
+  position: absolute;
+  top:1500px;
+  background-color:white;
+  width:55%;
+  right:-30px;
+  height:600px;
+  border:3px #cbd4cd solid;
+  border-radius: 30px;
+  padding:30px;
+  margin-bottom:300px;
+}
+html {
+  scroll-behavior: smooth;
+ }
