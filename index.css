@@ -3,7 +3,9 @@
   background-color: #333;
   overflow: hidden;
   margin: -5px;
-
+  position: fixed;
+  width:110%;
+  z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
@@ -22,15 +24,13 @@
   color: black;
 }
 
-
 .topnav a img {
   height: 40px;
-  top: 3px;
+  top: 8px;
   left: 10px;
   position:absolute;
   margin-right:10px;
 }
-
 
 body {
   background-image: url('background.jpg');
@@ -40,12 +40,13 @@ body {
   
   overflow-x:hidden;
   align-content: center;
+  height:5000px;
 }
 
 .mainWrapper {
   position: absolute;
   right: 8%;
-  top: 150px;
+  top: 130px;
 }
 
 .title {
@@ -57,20 +58,50 @@ body {
   margin-bottom:15px;
 }
 .description {
-  color:white;
+color:white;
+  
+}
+.description .header {
+  font-size: 25px;   
   background: #3b3e42;
-  opacity: 80%;
+  opacity: 100%;
   padding:30px;
   padding-top:10px;
   padding-bottom:3px;
-  margin-bottom:15px;
+
 }
-.description p {
-  font-size: 25px;
+.description .body {
+  font-size: 18px;
+  background: #2a2a2b;
+  padding:30px;
+  padding-top:13px;
+  padding-bottom:3px;
 }
 .dropDownIcon {
   height:20px;
   position:absolute;
   top:  145px;
   right: 20px;
+}
+
+.loginWrapper {
+  margin-top:20px;
+}
+.login{
+  background:white;
+  color:green;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.signUp{
+  background:green;
+  color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.login:hover {
+ box-shadow: 0 5px 15px rgba(50, 168, 82, .8);
+}
+.signUp:hover {
+ box-shadow: 0 5px 15px rgba(255, 255, 255, .8);
 }
