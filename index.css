@@ -108,7 +108,7 @@ color:white;
 
 .loginWrapper{
   position: absolute;
-  top:800px;
+  top:100%;
   background-color:white;
   width:55%;
   left:-30px;
@@ -150,7 +150,7 @@ color:white;
 
 .signUpWrapper{
   position: absolute;
-  top:1500px;
+  top:190%;
   background-color:white;
   width:55%;
   right:-30px;
